@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Hamza Bashir | AI Engineer</title>
+    <meta name="description" content="Ali Hamza Bashir - AI Engineer and Data Scientist specializing in LLMs, RAG pipelines, and production ML systems. Based in Gottingen, Germany.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">AH<span class="accent">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-animation">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="status-dot"></span> Open to AI Engineer roles in Germany
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Ali Hamza Bashir</span>
+            </h1>
+            <p class="hero-subtitle typewriter">AI Engineer &bull; LLM Specialist &bull; Data Scientist</p>
+            <p class="hero-description">
+                I build production-grade AI systems, from fine-tuning LLMs and designing RAG pipelines 
+                to deploying scalable ML platforms. M.Sc. in Applied Data Science from the University of Gottingen, 
+                with publications at IEEE BigData and EMNLP. Currently a Research Assistant at Fraunhofer IAIS.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-paper-plane"></i> Get In Touch
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Publications</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">M.Sc.</span>
+                    <span class="stat-label">Applied Data Science</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm an <strong>AI Engineer</strong> with an M.Sc. in Applied Data Science from 
+                        <strong>Georg-August-Universitat Gottingen</strong>, currently working as a Research Assistant 
+                        at <strong>Fraunhofer IAIS</strong> in Germany. I specialize in building end-to-end AI systems 
+                        that bridge the gap between research and production.
+                    </p>
+                    <p>
+                        My expertise spans <strong>LLM fine-tuning</strong> (LoRA, RAFT, PPO), 
+                        <strong>Retrieval-Augmented Generation</strong>, <strong>agentic workflows</strong>, and 
+                        <strong>scalable ML pipelines</strong>. I've fine-tuned open-source LLMs for German legal QA, 
+                        built production chatbots that automated 20% of customer queries, and developed fraud detection 
+                        engines processing millions of transactions.
+                    </p>
+                    <p>
+                        I'm a published researcher with papers at <strong>IEEE BigData 2024</strong> and the 
+                        <strong>BabyLM Workshop at EMNLP 2025</strong>, where I won the Interaction Track award. 
+                        I'm actively seeking <strong>AI Engineer positions in Germany</strong> where I can contribute 
+                        to building impactful intelligent systems.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-brain"></i>
+                            <span>LLM Fine-tuning & RAG</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-cogs"></i>
+                            <span>Production ML Pipelines</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-trophy"></i>
+                            <span>BabyLM Award @ EMNLP 2025</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Gottingen, Germany</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">ali@gottingen:~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">$</span> cat about.json</p>
+                            <pre>{
+  "name": "Ali Hamza Bashir",
+  "role": "AI Engineer & Data Scientist",
+  "location": "Gottingen, Germany",
+  "education": "M.Sc. Applied Data Science",
+  "university": "Georg-August-Universitat Gottingen",
+  "focus": [
+    "LLM Fine-tuning",
+    "RAG Pipelines",
+    "Agentic Workflows",
+    "ML Engineering"
+  ],
+  "languages": [
+    "English (Fluent)",
+    "Urdu (Native)",
+    "German (Basic)"
+  ],
+  "status": "Open to work"
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Research Assistant - LLM</h3>
+                                <p class="company"><a href="https://www.iais.fraunhofer.de/" target="_blank" rel="noopener">Fraunhofer IAIS</a> <span class="company-tag">Research</span></p>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="date"><i class="far fa-calendar"></i> Jul 2024 - Present</span>
+                                <span class="location"><i class="fas fa-map-marker-alt"></i> Sankt Augustin, Germany</span>
+                            </div>
+                        </div>
+                        <p class="project-label"><i class="fas fa-flask"></i> Domain Specific Finetuning of LLMs: Enhancing Performance using Retrieval Augmented Techniques</p>
+                        <ul class="timeline-details">
+                            <li>Upgraded a production NLP pipeline for automated order categorization from emails by replacing generic BERT with a fine-tuned German BERT, improving accuracy from 78% to 92%</li>
+                            <li>Developed high quality instruction dataset by prompting off-the-shelf pool of LLMs to generate 23,905 QA pairs from German legal documents</li>
+                            <li>Fine-tuned open-source LLMs (LLaMA-3, Gemma) using LoRA, improving German legal QA accuracy from 36.8% to 56.4%</li>
+                            <li>Applied Retrieval-Augmented Fine-Tuning (RAFT) and evaluated fine-tuned LLMs using LLM-as-Judge, improving factuality and correctness by 20%</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span><span>PyTorch</span><span>HuggingFace</span><span>LangChain</span>
+                            <span>LlamaIndex</span><span>RAGAS</span><span>Unsloth</span><span>vLLM</span><span>W&B</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>AI Engineer</h3>
+                                <p class="company"><a href="https://www.i2cinc.com/" target="_blank" rel="noopener">i2c Inc</a> <span class="company-tag">FinTech</span></p>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="date"><i class="far fa-calendar"></i> Jan 2023 - Apr 2024</span>
+                                <span class="location"><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</span>
+                            </div>
+                        </div>
+                        <p class="project-label"><i class="fas fa-robot"></i> Chatbots Development using Generative AI</p>
+                        <ul class="timeline-details">
+                            <li>Led an LLM-based chatbot from POC to production in 2 months, automating 20% of customer queries</li>
+                            <li>Built ETL pipelines that continuously ingest multi-format documents and millions of historical queries to power a chatbot knowledge base</li>
+                            <li>Built RAG pipeline with semantic ranking, improving context recall by 16% and context precision by 10%</li>
+                            <li>Deployed and maintained the chatbot in production using Docker and Kubernetes, with CI/CD pipelines for reliable updates and custom dashboards to monitor performance</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span><span>Java</span><span>HuggingFace</span><span>Redis</span>
+                            <span>Kafka</span><span>PostgreSQL</span><span>Airflow</span><span>Docker</span><span>Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Data Scientist</h3>
+                                <p class="company"><a href="https://www.i2cinc.com/" target="_blank" rel="noopener">i2c Inc</a> <span class="company-tag">FinTech</span></p>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="date"><i class="far fa-calendar"></i> Jul 2020 - Dec 2022</span>
+                                <span class="location"><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</span>
+                            </div>
+                        </div>
+                        <p class="project-label"><i class="fas fa-shield-alt"></i> AI Fraud Detection & Prevention Engine</p>
+                        <ul class="timeline-details">
+                            <li>Integrated features around secure elements of Card-Not-Present transactions having 20% stronger fraud signal</li>
+                            <li>Enhanced Account Take Over (ATO) fraud detection by identifying and integrating 30% stronger fraud signal features related to customer interaction with web and mobile applications</li>
+                            <li>Improved merchant risk identification by creating features to profile merchants based on geography and ratio of fraud transactions</li>
+                            <li>Implemented Data Sampling pipeline to efficiently reduce data imbalance of fraud transactions from 1:1000 to 1:100</li>
+                            <li>Engineered end-to-end Python utility for customer profiling to generate statistical moving average features with windows ranging from few minutes to 30 days</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span><span>PostgreSQL</span><span>Pandas</span><span>Fraud Detection</span>
+                            <span>Feature Engineering</span><span>Data Sampling</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Research and applied AI projects from academia and industry</p>
+            <div class="projects-grid">
+
+                <div class="project-card featured" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="project-badge">Award Winner</div>
+                    <h3>Interactive Language Model Pretraining with Reinforcement Learning</h3>
+                    <p>
+                        Built a framework for language model pretraining followed by PPO fine-tuning with teacher-based 
+                        reward modeling. Won the Interaction Track of the BabyLM 2025 competition, demonstrating superior 
+                        language acquisition over standard pretraining approaches.
+                    </p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 2025</span>
+                        <span><i class="fas fa-university"></i> University of Gottingen</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span>PPO</span><span>Reward Modeling</span><span>HuggingFace</span><span>PyTorch</span><span>Language Models</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-icon">
+                        <i class="fas fa-diagram-project"></i>
+                    </div>
+                    <div class="project-badge">Vision + LLM</div>
+                    <h3>Chain-of-Region: Enhancing Diagram Understanding in VLMs</h3>
+                    <p>
+                        Developed a modular pipeline that decomposes diagrams into structured regions, extracts geometric 
+                        and semantic features, and assembles context-rich prompts for Vision-Language Models. Achieved up 
+                        to +15.2% accuracy improvement on the MMMU benchmark across science and engineering domains.
+                    </p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 2025</span>
+                        <span><i class="fas fa-university"></i> University of Gottingen</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span>VLMs</span><span>MMMU</span><span>Prompt Engineering</span><span>Computer Vision</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="project-badge">Agentic RAG</div>
+                    <h3>Agentic RAG Chatbot for German Legal Queries</h3>
+                    <p>
+                        Developed an agentic RAG chatbot using LangGraph and LlamaIndex to answer complex queries over 
+                        30,000+ German legal documents, providing grounded, citation-backed responses through multi-step 
+                        retrieval and synthesis.
+                    </p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 2025</span>
+                        <span><i class="fas fa-building"></i> Fraunhofer IAIS</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span>LangGraph</span><span>LlamaIndex</span><span>RAG</span><span>Agents</span><span>German NLP</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-badge">Production LLM</div>
+                    <h3>Enterprise LLM Chatbot</h3>
+                    <p>
+                        Led an LLM-based chatbot from proof-of-concept to production in 2 months at i2c Inc. 
+                        Built ETL pipelines ingesting multi-format documents and millions of historical queries, 
+                        with semantic ranking improving recall by 16%.
+                    </p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 2023 - 2024</span>
+                        <span><i class="fas fa-building"></i> i2c Inc</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span>RAG</span><span>Kafka</span><span>Redis</span><span>Kubernetes</span><span>Docker</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-badge">ML Engineering</div>
+                    <h3>AI Fraud Detection Engine</h3>
+                    <p>
+                        Built an AI-powered fraud detection and prevention engine at i2c Inc, engineering features 
+                        for Card-Not-Present transactions with 20% stronger fraud signals and reducing data imbalance 
+                        from 1:1000 to 1:100.
+                    </p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 2020 - 2022</span>
+                        <span><i class="fas fa-building"></i> i2c Inc</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Python</span><span>PostgreSQL</span><span>Pandas</span><span>Feature Engineering</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="project-badge">NLP Research</div>
+                    <h3>German Legal LLM Fine-tuning</h3>
+                    <p>
+                        Fine-tuned LLaMA-3 and Gemma for German legal QA using LoRA, improving accuracy from 36.8% to 56.4%. 
+                        Generated 23,905 instruction QA pairs and applied RAFT with LLM-as-Judge evaluation, 
+                        boosting factuality by 20%.
+                    </p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 2024 - 2025</span>
+                        <span><i class="fas fa-building"></i> Fraunhofer IAIS</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span>LoRA</span><span>RAFT</span><span>vLLM</span><span>Unsloth</span><span>RAGAS</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section section-alt" id="publications">
+        <div class="container">
+            <h2 class="section-title">Publications & Awards</h2>
+            <div class="publications-list">
+
+                <div class="publication-card" data-aos="fade-up">
+                    <div class="pub-icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="pub-content">
+                        <h3>Advancing Personalized Medicine: A Scalable LLM-based Recommender System for Patient Matching</h3>
+                        <p class="pub-authors">Berger, A., Berghaus, D., <strong>Bashir, A. H.</strong>, et al.</p>
+                        <p class="pub-venue"><i class="fas fa-bookmark"></i> IEEE International Conference on Big Data (BigData), 2024, pp. 5876-5883</p>
+                    </div>
+                </div>
+
+                <div class="publication-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pub-icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="pub-content">
+                        <h3>Fine-Tuning Large Language Models for Compliance Checks</h3>
+                        <p class="pub-authors">Bell, T., Leonhard, D., <strong>Bashir, A. H.</strong>, et al.</p>
+                        <p class="pub-venue"><i class="fas fa-bookmark"></i> IEEE International Conference on Big Data (BigData), 2024, pp. 8790-8792</p>
+                    </div>
+                </div>
+
+                <div class="publication-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pub-icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="pub-content">
+                        <h3>Once Upon a Time: Interactive Learning for Storytelling with Small Language Models</h3>
+                        <p class="pub-authors">Mayer Martins, J., <strong>Bashir, A. H.</strong>, Khalid, M. R., Beinborn, L.</p>
+                        <p class="pub-venue"><i class="fas fa-bookmark"></i> First BabyLM Workshop @ EMNLP 2025</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="awards-section">
+                <h3 class="subsection-title"><i class="fas fa-trophy"></i> Honors & Awards</h3>
+                <div class="awards-grid">
+                    <div class="award-card" data-aos="fade-up">
+                        <div class="award-icon"><i class="fas fa-medal"></i></div>
+                        <div class="award-content">
+                            <h4>BabyLM Challenge Award (Interaction Track)</h4>
+                            <p>First BabyLM Workshop @ EMNLP 2025</p>
+                            <p class="award-detail">For "Once Upon a Time: Interactive Learning for Storytelling with Small Language Models"</p>
+                        </div>
+                    </div>
+                    <div class="award-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="award-icon"><i class="fas fa-award"></i></div>
+                        <div class="award-content">
+                            <h4>Dean's Honor List Award</h4>
+                            <p>PUCIT, University of the Punjab</p>
+                            <p class="award-detail">Recipient for 6 out of 8 semesters during undergraduate studies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>LLMs & AI</h3>
+                    <div class="skill-items">
+                        <span>LLM Fine-tuning (LoRA, RAFT, PPO)</span>
+                        <span>RAG Pipelines</span>
+                        <span>LangChain / LangGraph</span>
+                        <span>LlamaIndex</span>
+                        <span>Agentic Workflows</span>
+                        <span>Prompt Engineering</span>
+                        <span>vLLM / Unsloth</span>
+                        <span>RAGAS Evaluation</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Languages & Frameworks</h3>
+                    <div class="skill-items">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>TypeScript / JavaScript</span>
+                        <span>FastAPI</span>
+                        <span>Django / Flask</span>
+                        <span>React</span>
+                        <span>C# / .NET</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon"><i class="fas fa-cube"></i></div>
+                    <h3>ML & Data</h3>
+                    <div class="skill-items">
+                        <span>PyTorch</span>
+                        <span>HuggingFace Transformers</span>
+                        <span>scikit-learn</span>
+                        <span>Pandas / NumPy</span>
+                        <span>Spark</span>
+                        <span>Weights & Biases</span>
+                        <span>NLP / Time Series</span>
+                        <span>Bayesian Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Infrastructure & MLOps</h3>
+                    <div class="skill-items">
+                        <span>Docker / Kubernetes</span>
+                        <span>Kafka</span>
+                        <span>Airflow</span>
+                        <span>Redis</span>
+                        <span>PostgreSQL</span>
+                        <span>CI/CD</span>
+                        <span>Git / GitHub</span>
+                        <span>Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card" data-aos="fade-up">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>M.Sc. in Applied Data Science</h3>
+                        <p class="edu-school">Georg-August-Universitat Gottingen</p>
+                        <p class="edu-date"><i class="far fa-calendar"></i> Oct 2024 - Feb 2026 &nbsp;|&nbsp; <i class="fas fa-map-marker-alt"></i> Germany</p>
+                        <p class="edu-description">
+                            Advanced studies in data science, machine learning, and artificial intelligence. 
+                            Research projects in vision-language models, reinforcement learning for language models, 
+                            and agentic RAG systems.
+                        </p>
+                        <div class="edu-highlights">
+                            <span><i class="fas fa-check-circle"></i> LLMs & NLP</span>
+                            <span><i class="fas fa-check-circle"></i> Computer Vision</span>
+                            <span><i class="fas fa-check-circle"></i> Reinforcement Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>B.Sc. in Software Engineering</h3>
+                        <p class="edu-school">University of the Punjab (PUCIT)</p>
+                        <p class="edu-date"><i class="far fa-calendar"></i> Sep 2016 - Jul 2020 &nbsp;|&nbsp; <i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+                        <p class="edu-description">
+                            Strong foundation in software engineering, algorithms, and system design. 
+                            Dean's Honor List recipient for 6 out of 8 semesters.
+                        </p>
+                        <div class="edu-highlights">
+                            <span><i class="fas fa-check-circle"></i> Software Engineering</span>
+                            <span><i class="fas fa-check-circle"></i> Algorithms & Data Structures</span>
+                            <span><i class="fas fa-check-circle"></i> Dean's Honor List (6/8)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+                I'm actively looking for AI Engineer positions in Germany. 
+                Let's connect and discuss how I can contribute to your team!
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:alihamzakhan94@gmail.com" class="contact-card" data-aos="fade-up">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>alihamzakhan94@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/malihamza/" target="_blank" rel="noopener" class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/malihamza</p>
+                </a>
+                <a href="https://github.com/malihamza" target="_blank" rel="noopener" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>github.com/malihamza</p>
+                </a>
+                <div class="contact-card location-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Gottingen, Germany</p>
+                </div>
+            </div>
+            <div class="contact-cta">
+                <a href="mailto:alihamzakhan94@gmail.com" class="btn btn-primary btn-lg">
+                    <i class="fas fa-paper-plane"></i> Let's Work Together
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ali Hamza Bashir. Built with passion.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/malihamza" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/malihamza/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:alihamzakhan94@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
